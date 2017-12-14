@@ -40,6 +40,7 @@ Or [:fire: Download the master branch as zip](https://github.com/UnityCommunity/
 - [:book: Stackoverflow Answer](https://stackoverflow.com/questions/35890932/unity-game-manager-script-works-only-one-time/35891919#35891919)
 - [:book: Unity Offical Wiki Singleton](http://wiki.unity3d.com/index.php/Singleton)
 - [:book: Singleton.cs Gist](https://gist.github.com/EmpireWorld/11ff050fc1affc733ea74a497ce42961)
+- [:book: Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 ## License
 
