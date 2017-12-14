@@ -3,11 +3,9 @@
 
 # Unity Singleton
 
-The best way to implement singleton pattern in Unity.
+The best way to implement singleton pattern in Unity. By using this pattern you will be able to define Global variables and classes and use their methods and properties in Global. This pattern is a must have for most of the games that made using Unity engine.
 
-By using this pattern you will be able to define Global variables and classes and use their methods and properties in Global.
-
-This pattern is a must have for most of the games that made using Unity engine.
+:book: [Learn More about Singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 ## Features
 
