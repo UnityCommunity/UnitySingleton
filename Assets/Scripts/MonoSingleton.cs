@@ -50,11 +50,25 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : Component
 		if ( instance == null )
 		{
 			instance = this as T;
-			DontDestroyOnLoad ( gameObject );
+
+			if (Application.isPlaying)
+			{
+				DontDestroyOnLoad(gameObject);
+			}
+
+			// Init existing instance
+			Init();
 		}
 		else
 		{
-			Destroy ( gameObject );
+			if (Application.isPlaying)
+			{
+				Destroy(gameObject);
+			}
+			else
+			{
+				DestroyImmediate(gameObject);
+			}
 		}
 	}
 
