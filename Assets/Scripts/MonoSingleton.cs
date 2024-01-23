@@ -71,6 +71,38 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : Component
 			}
 		}
 	}
+ 
+	public static void CreateInstance()
+	{
+		DestroyInstance();
+		instance = Instance;
+	}
+	
+	public static void DestroyInstance()
+	{
+		if (instance == null) return;
+	
+		instance.Clear();
+		instance = default(T);
+	}
+	
+	protected void Init()
+	{
+		OnInit();
+	}
+	
+	public void Clear()
+	{
+ 		OnClear();
+	}
+	
+	protected virtual void OnInit()
+	{
+	}
+	
+	protected virtual void OnClear()
+	{
+	}
 
 	#endregion
 	
