@@ -22,6 +22,14 @@ The best way to implement singleton pattern in Unity. By using this pattern you 
 - Edit the variables inside the inspector
 - Run the game and enjoy!
 
+## Usage
+
+Add `using UnityCommunity.UnitySingleton;` for using the classes.
+
+- Use `Singleton<T>` for plain C# classes.
+- Use `MonoSingleton<T>` if you want a Scene-based singleton which is not persistent across scenes.
+- Use `PersistentMonoSingleton<T>` if you want a Global and persistent singleton across scenes.
+
 ## Download
 
 Run the following command in terminal or command prompt to clone the repository:
