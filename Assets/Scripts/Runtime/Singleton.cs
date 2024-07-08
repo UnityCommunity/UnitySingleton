@@ -44,12 +44,12 @@ namespace UnityCommunity.UnitySingleton
         {
             get
             {
-                if (Instance == null)
+                if (instance == null)
                 {
                     //ensure that only one thread can execute
                     lock (typeof(T))
                     {
-                        if (Instance == null)
+                        if (instance == null)
                         {
                             instance = new T();
                             instance.InitializeSingleton();
