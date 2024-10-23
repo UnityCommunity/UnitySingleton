@@ -17,7 +17,7 @@ The best way to implement singleton pattern in Unity. By using this pattern you 
 
 - [Download the Project](#download).
 - Open the Project in Unity.
-- Create your own Singleton classes by extending the Generic [:sparkles: Singleton :sparkles:](https://github.com/UnityCommunity/UnitySingleton/blob/master/Assets/Scripts/Singleton.cs) class. [:rocket: Check out the example GameManager](https://github.com/UnityCommunity/UnitySingleton/blob/master/Assets/Scripts/GameManager.cs)
+- Create your own Singleton classes by extending the Generic [:sparkles: Singleton :sparkles:](https://github.com/UnityCommunity/UnitySingleton/blob/main/Assets/Scripts/Runtime/Singleton.cs) class. [:rocket: Check out the example GameManager](https://github.com/UnityCommunity/UnitySingleton/blob/master/Assets/Scripts/GameManager.cs)
 - Attach your singleton classes to the GameManager game object in the _Preload scene.
 - Edit the variables inside the inspector
 - Run the game and enjoy!
