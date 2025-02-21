@@ -12,5 +12,12 @@
   "changelogUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/CHANGELOG.md",
   "license": "MIT",
   "licensesUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/LICENSE",
-  "documentationUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/README.md"
+  "documentationUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/README.md",
+  "samples": [
+    {
+      "displayName": "Samples",
+      "description": "Sample scene with Singleton Setup. Based on a <a href=\"https://stackoverflow.com/questions/35890932/unity-game-manager-script-works-only-one-time/35891919#35891919\">_Preload workflow</a>",
+      "path": "Samples~/"
+    }
+  ]
 }
