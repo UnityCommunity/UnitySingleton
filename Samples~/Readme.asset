@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier:
+  title: How to use Unity Singleton
+  sections:
+  - heading: Example Usage
+    text:
+    - This is a quick demo on how to use the Unity Singleton Package
+    - 'To quickly test it out:'
+    - "\u2022 Go to the Scenes in this Samples folder"
+    - "\u2022 Add the scenes in the following order"
+    - "    \u2022 _Preload"
+    - "    \u2022 Main Menu"
+    - "\u2022 Then open the Scenes folder and edit the name parameter on the GameManager component attached to the GameManager object"
+    - "\u2022 Save and press play"
+    - "\u2022 The scene will change to the Main Menu, and the log will print out the name provided"
+  - heading: Functionality overview
+    text:
+    - Add using UnityCommunity.UnitySingleton; for using the classes
+    - "\u2022 Use Singleton<T> for plain C# classes"
+    - "\u2022 Use MonoSingleton<T> if you want a Scene-based singleton which is not persistent across scenes"
+    - "\u2022 Use PersistentMonoSingleton<T> if you want a Global and persistent singleton across scenes"
