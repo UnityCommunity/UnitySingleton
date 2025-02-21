@@ -8,5 +8,9 @@
     "name": "Unity Community",
     "email": "hasanbayat1393@gmail.com"
   },
-  "scopedRegistries": []
+  "scopedRegistries": [],
+  "changelogUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/CHANGELOG.md",
+  "license": "MIT",
+  "licensesUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/LICENSE",
+  "documentationUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/README.md"
 }
