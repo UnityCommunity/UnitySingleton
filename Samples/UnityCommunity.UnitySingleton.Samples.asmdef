@@ -1,0 +1,16 @@
+{
+  "name": "UnityCommunity.UnitySingleton.Samples",
+  "rootNamespace": "UnityCommunity.UnitySingleton.Samples",
+  "references": [
+    "UnityCommunity.UnitySingleton"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

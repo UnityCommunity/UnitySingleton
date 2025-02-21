@@ -1,0 +1,12 @@
+{
+  "name": "com.unitycommunity.unitysingleton",
+  "version": "2.0.0",
+  "displayName": "Unity Singleton",
+  "description": "The best way to implement singleton pattern in Unity. ",
+  "unity": "2022.3",
+  "author": {
+    "name": "Unity Community",
+    "email": "hasanbayat1393@gmail.com"
+  },
+  "scopedRegistries": []
+}
