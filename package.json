@@ -1,0 +1,23 @@
+{
+  "name": "com.unitycommunity.unitysingleton",
+  "version": "3.0.0",
+  "displayName": "Unity Singleton",
+  "description": "The best way to implement singleton pattern in Unity. ",
+  "unity": "2022.3",
+  "author": {
+    "name": "Unity Community",
+    "email": "hasanbayat1393@gmail.com"
+  },
+  "scopedRegistries": [],
+  "changelogUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/CHANGELOG.md",
+  "license": "MIT",
+  "licensesUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/LICENSE",
+  "documentationUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/README.md",
+  "samples": [
+    {
+      "displayName": "Samples",
+      "description": "Sample scene with Singleton Setup. Based on a <a href=\"https://stackoverflow.com/questions/35890932/unity-game-manager-script-works-only-one-time/35891919#35891919\">_Preload workflow</a>",
+      "path": "Samples~/"
+    }
+  ]
+}

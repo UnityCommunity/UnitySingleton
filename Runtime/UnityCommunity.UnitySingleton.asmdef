@@ -1,0 +1,14 @@
+{
+  "name": "UnityCommunity.UnitySingleton",
+  "rootNamespace": "UnityCommunity.UnitySingleton",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
