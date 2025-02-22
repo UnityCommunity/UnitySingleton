@@ -13,17 +13,20 @@ using System.IO;
 [CustomEditor(typeof(Readme))]
 public class ReadmeEditor : Editor
 {
-    static string s_ReadmeSourceDirectory = "Assets/Samples/Unity Singleton/3.0.0/Samples/SamplesGuideInfo";
-
     const float k_Space = 8f;
 
     static void RemoveTutorial()
     {
-        if (EditorUtility.DisplayDialog("Remove Readme Assets",
+        string s_ReadmeSourcePath = GetReadmePath();
+        if (string.IsNullOrEmpty(s_ReadmeSourcePath))
+        {
+            Debug.LogWarning("Could not determine the Readme folder path.");
+            return;
+        }
 
-            $"All contents under {s_ReadmeSourceDirectory} will be removed, are you sure you want to proceed?",
-            "Proceed",
-            "Cancel"))
+        string s_ReadmeSourceDirectory = Path.GetDirectoryName(s_ReadmeSourcePath) + "\\SamplesGuideInfo";
+
+        if (EditorUtility.DisplayDialog("Remove Readme Assets", $"All contents under {s_ReadmeSourceDirectory} will be removed, are you sure you want to proceed?", "Proceed", "Cancel"))
         {
             if (Directory.Exists(s_ReadmeSourceDirectory))
             {
@@ -45,6 +48,15 @@ public class ReadmeEditor : Editor
 
             AssetDatabase.Refresh();
         }
+    }
+
+    static string GetReadmePath()
+    {
+        var readmeAsset = Selection.activeObject;
+        if (readmeAsset == null) return string.Empty;
+
+        string path = AssetDatabase.GetAssetPath(readmeAsset);
+        return path;
     }
 
     static Readme SelectReadme()
