@@ -9,10 +9,10 @@
     "email": "hasanbayat1393@gmail.com"
   },
   "scopedRegistries": [],
-  "changelogUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/CHANGELOG.md",
+  "changelogUrl": "https://github.com/UnityCommunity/UnitySingleton/blob/main/CHANGELOG.md",
   "license": "MIT",
-  "licensesUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/LICENSE",
-  "documentationUrl": "https://github.com/ThatAmuzak/UnitySingleton/blob/convert-to-upm/README.md",
+  "licensesUrl": "https://github.com/UnityCommunity/UnitySingleton/blob/main/LICENSE",
+  "documentationUrl": "https://github.com/UnityCommunity/UnitySingleton/blob/main/README.md",
   "samples": [
     {
       "displayName": "Samples",
