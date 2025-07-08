@@ -1,5 +1,5 @@
 | [Getting Started](#getting-started) | [Features](#features) | [License](#license) | [Resources](#resources) | [Download](#download) |
-|-------------------------------------|-----------------------|---------------------|-------------------------|-----------------------|
+| ----------------------------------- | --------------------- | ------------------- | ----------------------- | --------------------- |
 
 # Unity Singleton
 
@@ -26,8 +26,8 @@ and add it as a git package in the Unity Package Manager by clicking on the "+" 
 
 Once you have the package installed, you may
 
-- Create your own Singleton classes by extending the Generic [:sparkles: Singleton :sparkles:](Runtime/Scripts/Singleton.cs) class. (:rocket: Check out the example [GameManager](Samples/Scripts/GameManager.cs) in the example [_Preload scene](Samples/Scenes/_Preload.unity).)
-- Attach your singleton classes to a GameManager game object in a _Preload scene of your own.
+- Create your own Singleton classes by extending the Generic [:sparkles: Singleton :sparkles:](Runtime/Scripts/Singleton.cs) class. (:rocket: Check out the example [GameManager](Samples~/Scripts/GameManager.cs) in the example [\_Preload scene](Samples~/Scenes/_Preload.unity).)
+- Attach your singleton classes to a GameManager game object in a \_Preload scene of your own.
 - Edit the variables inside the inspector
 - Run the game and enjoy!
 
@@ -56,7 +56,7 @@ Or [:fire: Download the master branch as zip](https://github.com/UnityCommunity/
 ## Resources
 
 - [:book: Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
-- [:book: On the _Preload Scene](https://stackoverflow.com/questions/35890932/unity-game-manager-script-works-only-one-time/35891919#35891919)
+- [:book: On the \_Preload Scene](https://stackoverflow.com/questions/35890932/unity-game-manager-script-works-only-one-time/35891919#35891919)
 - [:arrow_forward: Deep dive into the Singleton Pattern](https://www.youtube.com/watch?v=mpM0C6quQjs)
 
 ## License
