@@ -72,7 +72,7 @@ namespace UnityCommunity.UnitySingleton
                 // Initialize existing instance
                 InitializeSingleton();
             }
-            else
+            else if (instance != this)
             {
 
                 // Destory duplicates
