@@ -6,6 +6,7 @@ namespace UnityCommunity.UnitySingleton
     /// The basic MonoBehaviour singleton implementation, this singleton is destroyed after scene changes, use <see cref="PersistentMonoSingleton{T}"/> if you want a persistent and global singleton instance.
     /// </summary>
     /// <typeparam name="T"></typeparam>
+    [DefaultExecutionOrder(-50)]
     public abstract class MonoSingleton<T> : MonoBehaviour, ISingleton where T : MonoSingleton<T>
     {
         #region Fields
