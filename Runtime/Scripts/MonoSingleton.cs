@@ -135,7 +135,7 @@ namespace UnityCommunity.UnitySingleton
             instance = Instance;
         }
 
-        public static void DestroyInstance()
+        private static void DestroyInstance()
         {
             if (instance == null)
             {
