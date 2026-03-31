@@ -143,7 +143,7 @@ namespace UnityCommunity.UnitySingleton
             }
 
             instance.ClearSingleton();
-            instance = default(T);
+            instance = null;
         }
 
         #endregion
