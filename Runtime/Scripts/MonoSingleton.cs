@@ -51,6 +51,11 @@ namespace UnityCommunity.UnitySingleton
                 return instance;
             }
         }
+        
+        /// <summary>
+        /// Gets whether an instance of this singleton exists.
+        /// </summary>
+        public static bool HasInstance => instance != null;
 
         /// <summary>
         /// Gets whether the singleton's instance is initialized.

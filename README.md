@@ -39,6 +39,13 @@ Add `using UnityCommunity.UnitySingleton;` for using the classes.
 - Use `MonoSingleton<T>` if you want a Scene-based singleton which is not persistent across scenes.
 - Use `PersistentMonoSingleton<T>` if you want a Global and persistent singleton across scenes.
 
+## Common Issues
+
+1. "Some objects were not cleaned up when closing the scene. (Did you spawn new GameObjects from OnDestroy?)"
+	This issue is caused when trying to unsubscribe from an event in OnDestroy/OnDisable. It happens because the singleton is destroyed before trying to unsubscribe, which spawns a new one as the scene is getting disabled, producing this error.
+	
+	To fix this error, check the `<T>.HasInstance` bool on the singleton in an if statement before unsubscribing from events.
+
 ## Contribute
 
 Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute to this project.
